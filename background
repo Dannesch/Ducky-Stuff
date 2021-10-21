@@ -1,4 +1,2 @@
-Function Set-WallPaper($Value){
-Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value $value
-rundll32.exe user32.dll, UpdatePerUserSystemParameters}
+Function Set-WallPaper($Value){Set-ItemProperty -path 'HKCU:\Control Panel\Desktop\' -name wallpaper -value $value | rundll32.exe user32.dll, UpdatePerUserSystemParameters}
 Set-WallPaper -Value "https://i.imgflip.com/1dv8ac.jpg"
