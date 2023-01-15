@@ -1,3 +1,3 @@
-Function Set-Speaker(){$wshShell = new-object -com wscript.shell;1..50 | % {$wshShell.SendKeys([char]175)}}
-Set-Speaker
+Function Full_Volume(){$wshShell = new-object -com wscript.shell;1..50 | % {$wshShell.SendKeys([char]175)}}
+Full_Volume
 start 'https://shattereddisk.github.io/rickroll/rickroll.mp4'
