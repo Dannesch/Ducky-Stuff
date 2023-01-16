@@ -1,4 +1,4 @@
-start 'https://shattereddisk.github.io/rickroll/rickroll.mp4'po
+start 'https://shattereddisk.github.io/rickroll/rickroll.mp4'
 Start-Sleep 2
 Function Full_Volume(){$wshShell = new-object -com wscript.shell;1..50 | % {$wshShell.SendKeys([char]175)}}
 Full_Volume
